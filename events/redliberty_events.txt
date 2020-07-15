@@ -6,8 +6,10 @@ country_event = {
 	title = redliberty.1.title
 	desc = redliberty.1.desc
 	picture = GFX_report_event_generic_truck
-	is_triggered_only = yes
 	fire_only_once = yes
+	trigger = {
+		tag= USA
+	}
 	mean_time_to_happen = {
 		days = 69
 	}
